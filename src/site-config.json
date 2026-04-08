@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Acme Fence",
+    "phone": "+13307840456",
+    "category": "fence company",
+    "city": "Cleveland",
+    "state": "OH"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Cleveland's Trusted Fence Experts",
+      "heroSubline": "Durable fences built to withstand Ohio's toughest weather. Serving Cleveland and surrounding areas.",
+      "aboutTitle": "Built on Strength, Rooted in Cleveland",
+      "aboutText": [
+        "Acme Fence has been securing Cleveland homes and businesses for over a decade. We started as a small, family-run operation and have grown into a trusted name in the community, all while maintaining our commitment to quality craftsmanship.",
+        "Our approach is simple: We listen to your needs, provide expert advice, and deliver a fence that exceeds your expectations. We use only the highest-quality materials and employ skilled installers who take pride in their work. We understand the unique challenges of Cleveland's climate and build fences designed to last.",
+        "We're proud to be a part of the Cleveland community. We source our materials locally whenever possible and support local initiatives. When you choose Acme Fence, you're not just getting a fence; you're investing in your community."
+      ],
+      "valueProps": [
+        {
+          "title": "Built to Last",
+          "description": "Fences engineered to withstand Cleveland's harsh winters and humid summers."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "We understand Cleveland's unique housing styles and neighborhood aesthetics."
+        },
+        {
+          "title": "Quality Materials",
+          "description": "Using only premium lumber and hardware for lasting durability."
+        },
+        {
+          "title": "Professional Installation",
+          "description": "Skilled crews ensure precise installation and long-term performance."
+        }
+      ],
+      "ctaHeadline": "Secure Your Property Today",
+      "ctaSubline": "Get a free, no-obligation quote for your fencing project."
+    },
+    "services": [
+      {
+        "slug": "wood-fence-installation",
+        "name": "Wood Fence Installation",
+        "shortDescription": "Classic wood fences, expertly installed for lasting beauty and security.",
+        "description": "We build wood fences for Cleveland homes with an understanding of the local climate and landscape. From the selection of rot-resistant lumber to precise post setting that can withstand the freeze-thaw cycle, we ensure a wood fence that lasts. Our wood fence options include classic picket fences, privacy fences, and decorative designs to complement your home's style. We handle everything from initial site evaluation to final cleanup, ensuring a seamless and stress-free experience. We take extra care to properly treat the wood against moisture and insect damage, extending the life of your fence for years to come. We also offer staining and painting services to customize your fence to your exact specifications.\n\nOur team takes pride in crafting wood fences that not only enhance the beauty of your property but also provide reliable security and privacy. We use only the highest-quality materials and employ proven construction techniques to deliver a fence that will stand the test of time. We understand that a wood fence is an investment, and we're committed to providing you with a fence that you'll be proud of for years to come.",
+        "process": [
+          "Step 1: Site Evaluation & Design Consultation",
+          "Step 2: Material Selection & Permitting",
+          "Step 3: Professional Installation",
+          "Step 4: Final Inspection & Cleanup"
+        ],
+        "benefits": [
+          "Classic Aesthetic",
+          "Enhanced Privacy",
+          "Property Value Increase",
+          "Customizable Designs"
+        ],
+        "faq": [
+          {
+            "question": "What type of wood is best for fences in Cleveland?",
+            "answer": "Cedar and treated lumber are excellent choices due to their natural resistance to rot and insects, crucial for Cleveland's climate."
+          },
+          {
+            "question": "How long will a wood fence last?",
+            "answer": "With proper maintenance, a well-built wood fence in Cleveland can last 15-20 years or more."
+          },
+          {
+            "question": "Do I need a permit to build a fence in Cleveland?",
+            "answer": "Yes, a permit is typically required. We can handle the permitting process for you as part of our service."
+          }
+        ]
+      },
+      {
+        "slug": "vinyl-fence-installation",
+        "name": "Vinyl Fence Installation",
+        "shortDescription": "Low-maintenance vinyl fences designed for durability and lasting beauty.",
+        "description": "Vinyl fences are an excellent choice for Cleveland homeowners seeking a durable, low-maintenance fencing solution. Resistant to rot, fading, and insect damage, vinyl fences stand up to Cleveland's fluctuating weather conditions. We offer a wide variety of vinyl fence styles, including privacy fences, picket fences, and decorative options to suit any home. Our experienced installers ensure precise installation, providing a fence that will look great and perform flawlessly for years to come. Vinyl fences offer a clean, modern look that complements a variety of architectural styles. \n\nUnlike wood fences, vinyl fences never need painting or staining, saving you time and money on maintenance. Simply wash them down with soap and water to keep them looking their best. We use only the highest-quality vinyl materials to ensure long-lasting performance and durability. Our vinyl fences are also backed by a warranty, giving you peace of mind knowing that your investment is protected. We are committed to providing Cleveland homeowners with the best vinyl fence installation services available.",
+        "process": [
+          "Step 1: Design Consultation & Property Survey",
+          "Step 2: Material Ordering & Site Preparation",
+          "Step 3: Professional Vinyl Fence Installation",
+          "Step 4: Quality Check & Customer Satisfaction"
+        ],
+        "benefits": [
+          "Low Maintenance",
+          "Long-Lasting Durability",
+          "Variety of Styles",
+          "Weather Resistance"
+        ],
+        "faq": [
+          {
+            "question": "How does vinyl fencing hold up in Cleveland's winter weather?",
+            "answer": "Vinyl is highly resistant to cracking and warping in cold temperatures, making it an ideal choice for Cleveland winters."
+          },
+          {
+            "question": "What colors and styles are available for vinyl fences?",
+            "answer": "We offer a wide range of colors and styles to match your home's aesthetic, from classic white to natural wood tones."
+          },
+          {
+            "question": "Does vinyl fencing require any special cleaning?",
+            "answer": "No, vinyl fencing is easy to clean with soap and water. It doesn't require any painting or staining."
+          }
+        ]
+      },
+      {
+        "slug": "aluminum-fence-installation",
+        "name": "Aluminum Fence Installation",
+        "shortDescription": "Elegant and secure aluminum fences for pools, yards, and decorative borders.",
+        "description": "Aluminum fences offer a stylish and secure fencing solution for Cleveland properties. Ideal for pool enclosures, yard boundaries, and decorative borders, aluminum fences provide a sleek, modern look while requiring minimal maintenance. Our aluminum fences are powder-coated for long-lasting durability and resistance to rust and corrosion, making them perfect for Cleveland's lakefront environment. We offer a variety of styles and colors to complement your home's architecture. \n\nOur experienced installers ensure precise and secure installation, providing a fence that will enhance the beauty and security of your property. Aluminum fences are also a popular choice for commercial properties due to their durability and low maintenance requirements. We offer a range of commercial-grade aluminum fences to meet the specific needs of your business. We understand that security is a top priority, and we're committed to providing Cleveland businesses with the best aluminum fence installation services available.",
+        "process": [
+          "Step 1: Site Assessment & Design Selection",
+          "Step 2: Material Fabrication & Delivery",
+          "Step 3: Professional Aluminum Fence Installation",
+          "Step 4: Final Walkthrough & Customer Approval"
+        ],
+        "benefits": [
+          "Elegant Design",
+          "Rust-Resistant",
+          "Pool Safety",
+          "Enhanced Security"
+        ],
+        "faq": [
+          {
+            "question": "Are aluminum fences suitable for Cleveland's lakefront environment?",
+            "answer": "Yes, aluminum fences are highly resistant to rust and corrosion, making them ideal for Cleveland's lakefront properties."
+          },
+          {
+            "question": "Can I customize the height and style of my aluminum fence?",
+            "answer": "Yes, we offer a wide range of customizable options to meet your specific needs and preferences."
+          },
+          {
+            "question": "Do aluminum fences require any maintenance?",
+            "answer": "Aluminum fences require minimal maintenance. Simply wash them down with soap and water to keep them looking their best."
+          }
+        ]
+      },
+      {
+        "slug": "chain-link-fence-installation",
+        "name": "Chain-Link Fence Installation",
+        "shortDescription": "Affordable and practical chain-link fences for security and boundary definition.",
+        "description": "Chain-link fences are a cost-effective and practical fencing solution for Cleveland homes and businesses. Providing security and boundary definition, chain-link fences are ideal for a variety of applications. We offer a range of chain-link fence options, including galvanized steel and vinyl-coated finishes for added durability and weather resistance. Our experienced installers ensure secure and proper installation, providing a fence that will stand the test of time. Chain-link fences are a versatile option that can be used for residential, commercial, and industrial properties. \n\nWe understand that budget is a consideration, and we're committed to providing Cleveland customers with the most affordable chain-link fence installation services available. We also offer a variety of accessories, such as gates and privacy slats, to customize your chain-link fence to your specific needs. Our team is dedicated to providing excellent customer service and ensuring that you are completely satisfied with your new chain-link fence. We are proud to be a trusted provider of chain-link fence installation services in Cleveland.",
+        "process": [
+          "Step 1: Site Survey & Material Selection",
+          "Step 2: Post Installation & Concrete Setting",
+          "Step 3: Chain-Link Fabric Installation",
+          "Step 4: Tensioning & Final Adjustments"
+        ],
+        "benefits": [
+          "Affordable Security",
+          "Boundary Definition",
+          "Durable Construction",
+          "Versatile Applications"
+        ],
+        "faq": [
+          {
+            "question": "Are chain-link fences a good option for security?",
+            "answer": "Yes, chain-link fences provide a strong deterrent against unauthorized access and are a cost-effective security solution."
+          },
+          {
+            "question": "Can I add privacy to a chain-link fence?",
+            "answer": "Yes, we offer privacy slats that can be easily installed to enhance the privacy of your chain-link fence."
+          },
+          {
+            "question": "What is the lifespan of a chain-link fence?",
+            "answer": "With proper maintenance, a chain-link fence can last for 20 years or more."
+          }
+        ]
+      },
+      {
+        "slug": "fence-repair-maintenance",
+        "name": "Fence Repair & Maintenance",
+        "shortDescription": "Extending the life of your fence with expert repair and maintenance services.",
+        "description": "Cleveland's harsh winters and humid summers can take a toll on fences. Acme Fence offers comprehensive fence repair and maintenance services to keep your fence looking its best and functioning properly. We handle everything from repairing damaged posts and panels to replacing broken gates and hardware. We understand the importance of maintaining your fence to protect your investment. Our experienced technicians are skilled in repairing all types of fences, including wood, vinyl, aluminum, and chain-link. We use only the highest-quality materials for repairs, ensuring long-lasting results. \n\nRegular maintenance can prevent costly repairs down the road. We offer routine maintenance services such as cleaning, staining, and sealing to protect your fence from the elements. We also offer emergency repair services for storm damage or other unexpected events. Our goal is to provide Cleveland homeowners and businesses with reliable and affordable fence repair and maintenance services. We are committed to extending the life of your fence and ensuring that it continues to provide security and beauty for years to come.",
+        "process": [
+          "Step 1: Fence Inspection & Damage Assessment",
+          "Step 2: Repair Plan & Material Procurement",
+          "Step 3: Professional Repair & Restoration",
+          "Step 4: Protective Coating & Sealing (if applicable)"
+        ],
+        "benefits": [
+          "Extends Fence Life",
+          "Prevents Costly Repairs",
+          "Enhances Curb Appeal",
+          "Ensures Security"
+        ],
+        "faq": [
+          {
+            "question": "How often should I maintain my fence in Cleveland?",
+            "answer": "We recommend inspecting your fence at least once a year and performing any necessary repairs or maintenance as needed."
+          },
+          {
+            "question": "What are the signs that my fence needs repair?",
+            "answer": "Common signs include leaning posts, cracked or broken panels, and loose hardware."
+          },
+          {
+            "question": "Can you repair fences damaged by snow or ice?",
+            "answer": "Yes, we have extensive experience repairing fences damaged by Cleveland's harsh winter weather."
+          }
+        ]
+      },
+      {
+        "slug": "gate-installation-repair",
+        "name": "Gate Installation & Repair",
+        "shortDescription": "Secure and stylish gates expertly installed and repaired for seamless access.",
+        "description": "A properly functioning gate is essential for security and convenience. Acme Fence offers comprehensive gate installation and repair services for Cleveland properties. We install and repair all types of gates, including wood, vinyl, aluminum, and chain-link. Our experienced technicians ensure precise installation and smooth operation. We offer a variety of gate styles to complement your fence and enhance your property's curb appeal. We also offer custom gate designs to meet your specific needs and preferences. \n\nWhether you need a new gate installed or an existing gate repaired, we have the expertise to get the job done right. We use only the highest-quality materials and hardware to ensure long-lasting performance. We also offer gate automation services, including the installation of gate openers and access control systems. Our goal is to provide Cleveland homeowners and businesses with reliable and affordable gate installation and repair services. We are committed to ensuring that your gate provides security, convenience, and lasting beauty.",
+        "process": [
+          "Step 1: Gate Design & Material Selection",
+          "Step 2: Precise Measurement & Fabrication",
+          "Step 3: Professional Gate Installation",
+          "Step 4: Hardware Adjustment & Alignment"
+        ],
+        "benefits": [
+          "Enhanced Security",
+          "Convenient Access",
+          "Increased Property Value",
+          "Customizable Designs"
+        ],
+        "faq": [
+          {
+            "question": "What type of gate is best for my property?",
+            "answer": "The best type of gate depends on your specific needs and preferences, as well as the style of your fence and property."
+          },
+          {
+            "question": "Can you automate my existing gate?",
+            "answer": "Yes, we can add gate openers and access control systems to most existing gates."
+          },
+          {
+            "question": "How much does gate repair cost?",
+            "answer": "The cost of gate repair depends on the extent of the damage and the type of gate. We offer free estimates."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Cleveland",
+        "slug": "cleveland-oh",
+        "state": "OH",
+        "content": "Acme Fence is proud to offer comprehensive fencing services to the residents and businesses of Cleveland, Ohio. We understand the unique needs of properties in Cleveland, from historic homes in Tremont to modern businesses downtown. Our experienced team is equipped to handle any fencing project, large or small, with quality craftsmanship and attention to detail.\n\nWhether you're looking to enhance your property's security, add privacy, or simply improve its aesthetic appeal, Acme Fence has the perfect fencing solution for you. We offer a wide variety of materials, including wood, vinyl, aluminum, and chain-link, ensuring that you'll find a fence that meets your specific needs and budget. We are committed to providing exceptional customer service and ensuring your complete satisfaction.",
+        "localContext": "Cleveland is a vibrant city with diverse neighborhoods and a rich history. Acme Fence understands the importance of blending our fencing solutions seamlessly with the character of each Cleveland community.",
+        "nearbyAreas": [
+          "Lakewood",
+          "Parma",
+          "Shaker Heights"
+        ]
+      },
+      {
+        "city": "Lakewood",
+        "slug": "lakewood-oh",
+        "state": "OH",
+        "content": "Acme Fence provides top-notch fencing services to the beautiful city of Lakewood, Ohio. Known for its charming homes and vibrant community, Lakewood deserves fencing solutions that complement its unique character. We offer a range of fencing styles, from classic wood fences to modern vinyl options, ensuring that you'll find the perfect fit for your property.\n\nOur team is dedicated to providing exceptional service and ensuring that your fencing project is completed to your satisfaction. We understand the importance of quality craftsmanship and attention to detail, and we're committed to delivering results that exceed your expectations. Whether you're looking to enhance your curb appeal or create a private backyard oasis, Acme Fence is here to help.",
+        "localContext": "Lakewood's architectural diversity requires a keen eye for detail. Acme Fence is dedicated to providing fencing solutions that enhance the beauty and value of Lakewood properties.",
+        "nearbyAreas": [
+          "Cleveland",
+          "Rocky River",
+          "Parma"
+        ]
+      },
+      {
+        "city": "Parma",
+        "slug": "parma-oh",
+        "state": "OH",
+        "content": "Acme Fence is your trusted provider of fencing services in Parma, Ohio. As one of Cleveland's largest suburbs, Parma boasts a diverse range of properties, each with its own unique fencing needs. Whether you're looking for a sturdy chain-link fence for security or an elegant vinyl fence for privacy, Acme Fence has the perfect solution for you.\n\nWe pride ourselves on our commitment to quality and customer satisfaction. Our experienced team will work closely with you to understand your specific needs and provide tailored recommendations to meet your budget and aesthetic preferences. From initial consultation to final installation, we'll be there every step of the way to ensure a seamless and stress-free experience.",
+        "localContext": "Parma's family-friendly atmosphere and diverse housing styles require versatile fencing options. Acme Fence offers a wide range of solutions to meet the needs of Parma homeowners.",
+        "nearbyAreas": [
+          "Cleveland",
+          "Lakewood",
+          "Seven Hills"
+        ]
+      },
+      {
+        "city": "Shaker Heights",
+        "slug": "shaker-heights-oh",
+        "state": "OH",
+        "content": "Acme Fence is delighted to serve the discerning residents of Shaker Heights, Ohio. Known for its beautiful homes and meticulously maintained landscapes, Shaker Heights demands fencing solutions that are both elegant and functional. We offer a wide range of high-quality fencing materials, including wood, vinyl, and ornamental metal, to complement the architectural style of your home.\n\nOur team understands the importance of adhering to local regulations and maintaining the aesthetic integrity of the community. We'll work closely with you to ensure that your fencing project meets all requirements and enhances the beauty of your property. From classic picket fences to modern privacy screens, Acme Fence is your trusted partner for all your fencing needs in Shaker Heights.",
+        "localContext": "Shaker Heights' commitment to architectural excellence requires careful consideration in fencing design. Acme Fence is dedicated to providing solutions that complement the elegance of Shaker Heights homes.",
+        "nearbyAreas": [
+          "Cleveland",
+          "University Heights",
+          "Beachwood"
+        ]
+      },
+      {
+        "city": "Westlake",
+        "slug": "westlake-oh",
+        "state": "OH",
+        "content": "Acme Fence provides expert fence installation and repair services in Westlake, Ohio. Westlake is a thriving community with beautiful homes, and we're proud to help homeowners enhance their properties with high-quality fencing solutions. We offer a variety of fence styles and materials to suit any taste and budget.\n\nWhether you need a privacy fence to create a secluded backyard oasis, a decorative fence to add curb appeal, or a security fence to protect your property, Acme Fence has you covered. Our experienced team will work with you to design and install a fence that meets your specific needs and complements your home's architecture. We are committed to providing exceptional customer service and ensuring your complete satisfaction.",
+        "localContext": "Westlake's blend of residential and commercial properties requires versatile fencing solutions. Acme Fence offers a variety of options to meet the diverse needs of Westlake residents and businesses.",
+        "nearbyAreas": [
+          "Bay Village",
+          "North Olmsted",
+          "Rocky River"
+        ]
+      },
+      {
+        "city": "Bay Village",
+        "slug": "bay-village-oh",
+        "state": "OH",
+        "content": "Acme Fence is proud to serve the residents of Bay Village, Ohio, with professional and reliable fencing services. Bay Village is a charming lakeside community, and we understand the importance of providing fencing solutions that are both aesthetically pleasing and durable enough to withstand the elements. We offer a wide range of fencing materials, including wood, vinyl, and aluminum, to suit your specific needs and preferences.\n\nOur team is committed to providing exceptional customer service and ensuring your complete satisfaction. We'll work closely with you to understand your vision and create a fence that enhances the beauty and value of your property. Whether you're looking to add privacy, security, or simply enhance your curb appeal, Acme Fence is here to help.",
+        "localContext": "Bay Village's proximity to Lake Erie requires durable and weather-resistant fencing. Acme Fence offers materials and installation techniques that can withstand the harsh lakeside environment.",
+        "nearbyAreas": [
+          "Westlake",
+          "Rocky River",
+          "Avon Lake"
+        ]
+      },
+      {
+        "city": "Rocky River",
+        "slug": "rocky-river-oh",
+        "state": "OH",
+        "content": "Acme Fence is your trusted source for all your fencing needs in Rocky River, Ohio. Known for its beautiful homes and well-maintained properties, Rocky River deserves fencing solutions that are both stylish and functional. We offer a wide variety of fencing materials and styles, from classic wood fences to modern vinyl options, ensuring that you'll find the perfect fit for your property.\n\nOur team is dedicated to providing exceptional service and ensuring that your fencing project is completed to your satisfaction. We understand the importance of quality craftsmanship and attention to detail, and we're committed to delivering results that exceed your expectations. Whether you're looking to enhance your curb appeal or create a private backyard oasis, Acme Fence is here to help.",
+        "localContext": "Rocky River's upscale residential areas require high-quality fencing that complements the neighborhood's aesthetic. Acme Fence is committed to providing premium fencing solutions that enhance the beauty and value of Rocky River homes.",
+        "nearbyAreas": [
+          "Lakewood",
+          "Westlake",
+          "Bay Village"
+        ]
+      },
+      {
+        "city": "Strongsville",
+        "slug": "strongsville-oh",
+        "state": "OH",
+        "content": "Acme Fence is proud to offer top-quality fencing services to the residents of Strongsville, Ohio. As a growing community with a mix of residential and commercial properties, Strongsville requires versatile fencing solutions to meet its diverse needs. We offer a wide range of fencing materials, including wood, vinyl, chain-link, and aluminum, ensuring that you'll find the perfect fence for your property.\n\nOur experienced team is dedicated to providing exceptional customer service and ensuring your complete satisfaction. We'll work closely with you to understand your specific needs and provide tailored recommendations to meet your budget and aesthetic preferences. From initial consultation to final installation, we'll be there every step of the way to ensure a seamless and stress-free experience.",
+        "localContext": "Strongsville's mix of residential neighborhoods and commercial areas requires fencing solutions that balance security and aesthetics. Acme Fence offers a variety of options to meet the diverse needs of Strongsville residents and businesses.",
+        "nearbyAreas": [
+          "North Royalton",
+          "Brunswick",
+          "Middleburg Heights"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Wood Fence Installation",
+        "text": "Acme Fence did a fantastic job installing our new wood privacy fence. The crew was professional, efficient, and respectful of our property. The fence looks beautiful and provides the privacy we were looking for. Highly recommend!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Chain-Link Fence Installation",
+        "text": "We needed a chain-link fence installed quickly for our dog. Acme Fence provided a competitive quote and completed the installation within a week. The fence is sturdy and keeps our furry friend safe.",
+        "date": "2024-10-28"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Vinyl Fence Repair",
+        "text": "After a bad storm, part of our vinyl fence was damaged. Acme Fence came out quickly and repaired the fence seamlessly. You can't even tell there was any damage. Great service!",
+        "date": "2024-09-12"
+      },
+      {
+        "name": "Tom B.",
+        "rating": 5,
+        "service": "Aluminum Fence Installation",
+        "text": "Acme Fence installed an aluminum fence around our pool. The fence is beautiful and meets all safety requirements. The installation team was professional and knowledgeable. We are very happy with the results.",
+        "date": "2024-08-03"
+      },
+      {
+        "name": "Sarah M.",
+        "rating": 4,
+        "service": "Gate Repair",
+        "text": "Our gate was sticking and difficult to open. Acme Fence repaired the gate quickly and efficiently. It now opens and closes smoothly. Thank you!",
+        "date": "2024-07-19"
+      },
+      {
+        "name": "Michael P.",
+        "rating": 5,
+        "service": "Wood Fence Staining",
+        "text": "Acme Fence stained our existing wood fence and it looks brand new! The color is perfect and the application was flawless. They really know what they're doing.",
+        "date": "2024-06-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Acme Fence | Cleveland's Fence Experts",
+        "description": "Cleveland's trusted fence company. Wood, vinyl, aluminum, & chain-link fences. Expert installation & repair. Free quotes!"
+      },
+      "about": {
+        "title": "About Acme Fence | Cleveland, OH",
+        "description": "Learn about Acme Fence, a family-owned and operated fence company serving Cleveland and surrounding areas with quality craftsmanship."
+      },
+      "services": {
+        "title": "Fence Services | Acme Fence Cleveland",
+        "description": "Acme Fence offers fence installation, repair, and maintenance in Cleveland, OH. Wood, vinyl, aluminum, and chain-link options."
+      },
+      "contact": {
+        "title": "Contact Acme Fence | Cleveland, OH",
+        "description": "Contact Acme Fence for a free quote on your fence project in Cleveland. Call us at +13307840456."
+      },
+      "reviews": {
+        "title": "Acme Fence Reviews | Cleveland, OH",
+        "description": "Read reviews from satisfied Acme Fence customers in Cleveland, OH. Quality fence installation and repair services."
+      },
+      "service-areas": {
+        "title": "Acme Fence Service Areas | Cleveland, OH",
+        "description": "Acme Fence provides fence services to Cleveland and surrounding areas. Find out if we serve your neighborhood."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "wood-fence-installation": "/images/service-wood-fence-installation.webp",
+      "vinyl-fence-installation": "/images/service-vinyl-fence-installation.webp",
+      "aluminum-fence-installation": "/images/service-aluminum-fence-installation.webp",
+      "chain-link-fence-installation": "/images/service-chain-link-fence-installation.webp",
+      "fence-repair-maintenance": "/images/service-fence-repair-maintenance.webp",
+      "gate-installation-repair": "/images/service-gate-installation-repair.webp"
+    },
+    "servicesResponsive": {
+      "wood-fence-installation": {
+        "src": "/images/service-wood-fence-installation.webp",
+        "srcset": "/images/service-wood-fence-installation-400w.webp 400w, /images/service-wood-fence-installation-800w.webp 800w, /images/service-wood-fence-installation-1200w.webp 1200w, /images/service-wood-fence-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "vinyl-fence-installation": {
+        "src": "/images/service-vinyl-fence-installation.webp",
+        "srcset": "/images/service-vinyl-fence-installation-400w.webp 400w, /images/service-vinyl-fence-installation-800w.webp 800w, /images/service-vinyl-fence-installation-1200w.webp 1200w, /images/service-vinyl-fence-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "aluminum-fence-installation": {
+        "src": "/images/service-aluminum-fence-installation.webp",
+        "srcset": "/images/service-aluminum-fence-installation-400w.webp 400w, /images/service-aluminum-fence-installation-800w.webp 800w, /images/service-aluminum-fence-installation-1200w.webp 1200w, /images/service-aluminum-fence-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chain-link-fence-installation": {
+        "src": "/images/service-chain-link-fence-installation.webp",
+        "srcset": "/images/service-chain-link-fence-installation-400w.webp 400w, /images/service-chain-link-fence-installation-800w.webp 800w, /images/service-chain-link-fence-installation-1200w.webp 1200w, /images/service-chain-link-fence-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fence-repair-maintenance": {
+        "src": "/images/service-fence-repair-maintenance.webp",
+        "srcset": "/images/service-fence-repair-maintenance-400w.webp 400w, /images/service-fence-repair-maintenance-800w.webp 800w, /images/service-fence-repair-maintenance-1200w.webp 1200w, /images/service-fence-repair-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gate-installation-repair": {
+        "src": "/images/service-gate-installation-repair.webp",
+        "srcset": "/images/service-gate-installation-repair-400w.webp 400w, /images/service-gate-installation-repair-800w.webp 800w, /images/service-gate-installation-repair-1200w.webp 1200w, /images/service-gate-installation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
